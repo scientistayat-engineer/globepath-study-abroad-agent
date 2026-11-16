@@ -72,8 +72,8 @@ Planning to study abroad means comparing countries, universities, programs, scho
 
 | | Link |
 |---|---|
-| Vercel (site and API) | `[add your Vercel link]` |
-| Firebase Hosting (site) | `[add your Firebase link]` |
+| Vercel (site and API) | `https://globepath-study-abroad-agent-six.vercel.app` |
+| Firebase Hosting (site) | `https://globepath-study-abroad-agent.web.app` |
 
 ## 📸 Screenshots
 
@@ -244,7 +244,7 @@ globepath-study-abroad-agent/
 
 ```bash
 # 1. Get the code
-git clone https://github.com/<your-username>/globepath-study-abroad-agent.git
+git clone https://github.com/scientistayat-engineer/globepath-study-abroad-agent.git
 cd globepath-study-abroad-agent
 
 # 2. Create a virtual environment
