@@ -1,0 +1,76 @@
+{
+ "fields": {
+  "CS": [
+   "Join hackathons and coding competitions",
+   "Contribute to open-source projects",
+   "Apply for a research assistant role in a software or security lab"
+  ],
+  "DS": [
+   "Enter Kaggle or university data challenges",
+   "Join an AI or machine learning student society",
+   "Work on a research project with real datasets"
+  ],
+  "EN": [
+   "Join a student engineering team such as robotics or Formula Student",
+   "Seek a lab assistant or workshop role",
+   "Apply for a summer internship in industry"
+  ],
+  "BM": [
+   "Join a business or entrepreneurship club",
+   "Enter case competitions",
+   "Attend career fairs and networking events"
+  ],
+  "HS": [
+   "Volunteer with campus health initiatives",
+   "Join a research group in a hospital or lab",
+   "Attend public health seminars and workshops"
+  ],
+  "DA": [
+   "Build a portfolio with studio projects",
+   "Join design or architecture competitions",
+   "Visit local exhibitions and design weeks"
+  ],
+  "NS": [
+   "Join a research group early as a student assistant",
+   "Attend department seminars and journal clubs",
+   "Present at a student research conference"
+  ],
+  "SS": [
+   "Join debating, policy, or model UN societies",
+   "Volunteer with local community organizations",
+   "Assist with survey or field research"
+  ]
+ },
+ "countries": {
+  "germany": [
+   "Learn basic German to make daily life easier",
+   "Join an international student club or tandem language group",
+   "Travel across Europe on weekends using student discounts"
+  ],
+  "canada": [
+   "Join a campus club or intramural sports team",
+   "Apply for co-op or internship placements",
+   "Explore national parks on long weekends"
+  ],
+  "uk": [
+   "Join a university society (there are hundreds)",
+   "Use student railcards to explore the country",
+   "Attend career events and employer talks"
+  ],
+  "australia": [
+   "Join clubs and sports at your university",
+   "Take part in orientation week events",
+   "Explore beaches and national parks in your free time"
+  ],
+  "usa": [
+   "Attend campus events and join student organizations",
+   "Apply for on-campus jobs and assistantships",
+   "Visit nearby cities during breaks"
+  ],
+  "netherlands": [
+   "Join a student association (studievereniging)",
+   "Cycle around the city and nearby towns",
+   "Visit nearby European cities by train"
+  ]
+ }
+}

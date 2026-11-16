@@ -1,0 +1,9 @@
+@media print {
+  .nav, .footer, .no-print, .toast, .skip, .page-head .chips { display: none !important; }
+  body { background: #fff; color: #000; }
+  .page-head { background: #fff; color: #000; padding: 0 0 12px; }
+  .page-head h1 { color: #000; }
+  .card { break-inside: avoid; box-shadow: none; }
+  .section { padding: 16px 0; }
+  .meter > i, .stacked-bar > i { transition: none; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

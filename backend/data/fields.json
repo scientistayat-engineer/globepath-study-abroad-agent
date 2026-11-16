@@ -1,0 +1,143 @@
+{
+ "programs": {
+  "CS": [
+   "Computer Science",
+   "Software Engineering",
+   "Cybersecurity",
+   "Human-Computer Interaction"
+  ],
+  "DS": [
+   "Data Science",
+   "Artificial Intelligence",
+   "Machine Learning",
+   "Data Analytics"
+  ],
+  "EN": [
+   "Mechanical Engineering",
+   "Electrical Engineering",
+   "Civil Engineering",
+   "Mechatronics"
+  ],
+  "BM": [
+   "Business Administration",
+   "Finance",
+   "Marketing",
+   "Supply Chain Management"
+  ],
+  "HS": [
+   "Public Health",
+   "Biomedical Science",
+   "Nursing",
+   "Pharmaceutical Sciences"
+  ],
+  "DA": [
+   "Architecture",
+   "Industrial Design",
+   "Digital Media and Design",
+   "Urban Planning"
+  ],
+  "NS": [
+   "Physics",
+   "Chemistry",
+   "Mathematics",
+   "Environmental Science"
+  ],
+  "SS": [
+   "Economics",
+   "Psychology",
+   "International Relations",
+   "Law and Society"
+  ]
+ },
+ "labels": {
+  "CS": "Computer Science",
+  "DS": "Data Science and AI",
+  "EN": "Engineering",
+  "BM": "Business and Management",
+  "HS": "Health Sciences",
+  "DA": "Design and Architecture",
+  "NS": "Natural Sciences",
+  "SS": "Social Sciences"
+ },
+ "keywords": {
+  "CS": [
+   "computer",
+   "software",
+   "cs",
+   "it",
+   "informatics",
+   "cyber",
+   "programming",
+   "web",
+   "computing"
+  ],
+  "DS": [
+   "data",
+   "ai",
+   "artificial",
+   "machine",
+   "ml",
+   "analytics",
+   "deep learning"
+  ],
+  "EN": [
+   "engineer",
+   "mechanical",
+   "electrical",
+   "civil",
+   "mechatronic",
+   "chemical",
+   "aerospace",
+   "robotics"
+  ],
+  "BM": [
+   "business",
+   "mba",
+   "finance",
+   "marketing",
+   "management",
+   "accounting",
+   "commerce",
+   "supply"
+  ],
+  "HS": [
+   "health",
+   "medicine",
+   "medical",
+   "nursing",
+   "pharmacy",
+   "biomedical",
+   "dental",
+   "public health"
+  ],
+  "DA": [
+   "design",
+   "architecture",
+   "art",
+   "media",
+   "urban",
+   "fashion",
+   "animation"
+  ],
+  "NS": [
+   "physics",
+   "chemistry",
+   "biology",
+   "math",
+   "science",
+   "environment",
+   "geology"
+  ],
+  "SS": [
+   "economics",
+   "psychology",
+   "law",
+   "politic",
+   "sociology",
+   "international",
+   "relations",
+   "education",
+   "social"
+  ]
+ }
+}

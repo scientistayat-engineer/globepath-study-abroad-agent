@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard | Globepath</title>
+<meta name="description" content="Your saved plans, shortlist and application checklist.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/print.css">
+<script>try{var t=JSON.parse(localStorage.getItem("globepath:theme"));document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script>
+</head>
+<body>
+<div id="nav"></div>
+<main id="main">
+<div class="dash">
+  <aside class="sidebar" aria-label="Dashboard sections"><a class="on" href="#overview">Overview</a><a href="#plans">My plans</a><a href="#shortlist">Shortlist</a><a href="#checklist-section">Checklist</a></aside>
+  <div class="dash-main">
+    <h1 class="section-title" id="greeting" style="margin:0">My dashboard</h1>
+    <section id="overview"><div class="tiles" id="tiles"></div></section>
+    <section class="card" id="plans"><h2 style="font-size:22px;margin-bottom:8px">My plans</h2><div id="plans-list"></div></section>
+    <div class="row">
+      <section class="card grow" id="shortlist" style="flex:1.4"><h2 style="font-size:22px;margin-bottom:12px">Shortlist</h2><div id="shortlist-list"></div></section>
+      <section class="card grow" id="checklist-section"><h2 style="font-size:22px">Application checklist</h2><div id="checklist"></div>
+        <form id="add-form" style="display:flex;gap:8px;margin-top:14px"><label class="sr-only" for="new-item">New checklist item</label><input class="input" id="new-item" placeholder="Add an item"><button class="btn btn-sm" type="submit" style="height:46px">Add</button></form>
+        <div class="field" style="margin-top:18px"><label for="deadline">Next application deadline</label><input class="input" id="deadline" type="date"></div>
+      </section>
+    </div>
+  </div>
+</div>
+</main>
+<div id="footer"></div>
+<script type="module" src="assets/js/dashboard.js"></script>
+</body></html>

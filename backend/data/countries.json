@@ -1,0 +1,241 @@
+{
+ "germany": {
+  "name": "Germany",
+  "flag": "DE",
+  "currency": "EUR",
+  "acc": {
+   "dorm": 380,
+   "shared": 480,
+   "private": 800
+  },
+  "food": 260,
+  "transport": 35,
+  "insurance": 1500,
+  "misc": 110,
+  "visa": 80,
+  "flights": 800,
+  "intakes": [
+   "Winter (October)",
+   "Summer (April)"
+  ],
+  "tests": "IELTS or TOEFL for English-taught programs; TestDaF or DSH for German-taught programs",
+  "work": {
+   "rule": "120 full days or 240 half days per year",
+   "hourly": 14
+  },
+  "visa_notes": "National student visa. Proof of funds (blocked account) is usually required.",
+  "docs": [
+   "Valid passport",
+   "University admission letter",
+   "Proof of funds (blocked account)",
+   "Health insurance confirmation",
+   "Academic transcripts and certificates",
+   "Language test certificate",
+   "Visa application form and photos"
+  ],
+  "tips": [
+   "Many public universities charge only a small semester fee.",
+   "Student dorms are cheaper but have waiting lists; apply early.",
+   "A semester ticket usually covers local public transport."
+  ]
+ },
+ "canada": {
+  "name": "Canada",
+  "flag": "CA",
+  "currency": "CAD",
+  "acc": {
+   "dorm": 750,
+   "shared": 850,
+   "private": 1450
+  },
+  "food": 360,
+  "transport": 100,
+  "insurance": 800,
+  "misc": 150,
+  "visa": 170,
+  "flights": 1400,
+  "intakes": [
+   "Fall (September)",
+   "Winter (January)"
+  ],
+  "tests": "IELTS or TOEFL (some universities also accept other tests)",
+  "work": {
+   "rule": "Up to 24 hours per week off-campus during study terms",
+   "hourly": 13
+  },
+  "visa_notes": "Study permit. A letter of acceptance and proof of funds are required.",
+  "docs": [
+   "Valid passport",
+   "Letter of acceptance",
+   "Proof of funds",
+   "Academic transcripts and certificates",
+   "Language test certificate",
+   "Statement of purpose",
+   "Study permit application"
+  ],
+  "tips": [
+   "Big-city rent is high; smaller cities can save thousands per year.",
+   "Check if your province requires an attestation letter.",
+   "Co-op programs can pay while you study."
+  ]
+ },
+ "uk": {
+  "name": "United Kingdom",
+  "flag": "GB",
+  "currency": "GBP",
+  "acc": {
+   "dorm": 850,
+   "shared": 850,
+   "private": 1500
+  },
+  "food": 320,
+  "transport": 100,
+  "insurance": 980,
+  "misc": 150,
+  "visa": 620,
+  "flights": 800,
+  "intakes": [
+   "Autumn (September/October)",
+   "Spring (January, some programs)"
+  ],
+  "tests": "IELTS (UKVI approved test for most visas)",
+  "work": {
+   "rule": "Up to 20 hours per week in term time at degree level",
+   "hourly": 15
+  },
+  "visa_notes": "Student visa. A confirmation of acceptance for studies (CAS) and proof of funds are required.",
+  "docs": [
+   "Valid passport",
+   "CAS from the university",
+   "Proof of funds",
+   "Academic transcripts and certificates",
+   "English language test",
+   "Tuberculosis test (if required)",
+   "Student visa application"
+  ],
+  "tips": [
+   "London costs far more than other cities.",
+   "The Immigration Health Surcharge is paid with the visa application.",
+   "Most master degrees take one year, which lowers total cost."
+  ]
+ },
+ "australia": {
+  "name": "Australia",
+  "flag": "AU",
+  "currency": "AUD",
+  "acc": {
+   "dorm": 850,
+   "shared": 800,
+   "private": 1500
+  },
+  "food": 360,
+  "transport": 100,
+  "insurance": 650,
+  "misc": 150,
+  "visa": 1300,
+  "flights": 1200,
+  "intakes": [
+   "Semester 1 (February/March)",
+   "Semester 2 (July)"
+  ],
+  "tests": "IELTS, TOEFL or PTE Academic",
+  "work": {
+   "rule": "Up to 48 hours per fortnight during study periods",
+   "hourly": 16
+  },
+  "visa_notes": "Student visa (subclass 500). Overseas Student Health Cover and a Genuine Student statement are required.",
+  "docs": [
+   "Valid passport",
+   "Confirmation of Enrolment (CoE)",
+   "Overseas Student Health Cover",
+   "Proof of funds",
+   "Genuine Student statement",
+   "English language test",
+   "Student visa application"
+  ],
+  "tips": [
+   "Sydney and Melbourne cost more than other cities.",
+   "Student visa fees have risen in recent years; check the current amount.",
+   "Part-time work rules are generous for students."
+  ]
+ },
+ "usa": {
+  "name": "United States",
+  "flag": "US",
+  "currency": "USD",
+  "acc": {
+   "dorm": 900,
+   "shared": 900,
+   "private": 1600
+  },
+  "food": 400,
+  "transport": 100,
+  "insurance": 2500,
+  "misc": 200,
+  "visa": 535,
+  "flights": 1300,
+  "intakes": [
+   "Fall (August/September)",
+   "Spring (January)"
+  ],
+  "tests": "TOEFL or IELTS; GRE or GMAT for some programs",
+  "work": {
+   "rule": "On-campus work up to 20 hours per week; off-campus work is restricted",
+   "hourly": 12
+  },
+  "visa_notes": "F-1 student visa. A Form I-20 and proof of funds are required, plus the SEVIS fee.",
+  "docs": [
+   "Valid passport",
+   "Form I-20",
+   "Proof of funds",
+   "Academic transcripts and certificates",
+   "TOEFL or IELTS score",
+   "GRE or GMAT score (if required)",
+   "F-1 visa application (DS-160)"
+  ],
+  "tips": [
+   "Health insurance is mandatory and often billed by the university.",
+   "Public universities in smaller towns cost much less to live in.",
+   "Assistantships can reduce tuition for graduate students."
+  ]
+ },
+ "netherlands": {
+  "name": "Netherlands",
+  "flag": "NL",
+  "currency": "EUR",
+  "acc": {
+   "dorm": 600,
+   "shared": 700,
+   "private": 1200
+  },
+  "food": 300,
+  "transport": 80,
+  "insurance": 1200,
+  "misc": 100,
+  "visa": 230,
+  "flights": 800,
+  "intakes": [
+   "September (main intake)",
+   "February (some programs)"
+  ],
+  "tests": "IELTS or TOEFL for English-taught programs",
+  "work": {
+   "rule": "Up to 16 hours per week, or full-time in June to August",
+   "hourly": 14
+  },
+  "visa_notes": "Residence permit, usually arranged by the university. Proof of funds is required.",
+  "docs": [
+   "Valid passport",
+   "University admission letter",
+   "Proof of funds",
+   "Academic transcripts and certificates",
+   "English language test",
+   "Residence permit application (via the university)"
+  ],
+  "tips": [
+   "Housing is scarce; start looking as soon as you are admitted.",
+   "Most universities arrange the residence permit for you.",
+   "A bicycle is the cheapest way to get around."
+  ]
+ }
+}

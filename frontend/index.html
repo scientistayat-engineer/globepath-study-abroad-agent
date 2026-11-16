@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Globepath | Plan your study abroad</title>
+<meta name="description" content="Tell us your country, degree, field and budget. Our AI agent builds your study abroad plan.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/print.css">
+<script>try{var t=JSON.parse(localStorage.getItem("globepath:theme"));document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script>
+</head>
+<body>
+<div id="nav"></div>
+<main id="main">
+<section class="hero" id="hero"><div class="container hero-grid">
+  <div class="hero-copy">
+    <div class="eyebrow reveal" style="color:#9DB4FF" data-i18n="hero.eyebrow">AI study abroad planner</div>
+    <h1 class="reveal reveal-2" data-i18n="hero.title">Study abroad, planned around your budget.</h1>
+    <p class="lead reveal reveal-2" data-i18n="hero.lead">Share your country, degree, field and budget. Our agent shortlists universities, scholarships, activities and a full cost estimate in seconds.</p>
+    <div class="pills reveal reveal-2"><span class="pill">Universities</span><span class="pill">Scholarships</span><span class="pill">Fees</span><span class="pill">Accommodation</span><span class="pill">Travel</span></div>
+  </div>
+  <form class="card hero-form reveal reveal-2" id="plan-form" novalidate>
+    <h2 data-i18n="form.title">Create my plan</h2>
+    <div class="form-grid">
+      <div class="field"><label for="country" data-i18n="form.country">Country</label><select class="input" id="country" required><option value="germany">Germany</option></select><div class="error" id="err-country" role="alert"></div></div>
+      <div class="field"><label for="degree" data-i18n="form.degree">Degree</label><select class="input" id="degree" required><option value="bachelor">Bachelor's</option><option value="master" selected>Master's</option><option value="phd">PhD</option></select><div class="error" id="err-degree" role="alert"></div></div>
+      <div class="field"><label for="field" data-i18n="form.field">Field of study</label><input class="input" id="field" list="field-list" placeholder="For example, Computer Science" autocomplete="off" required><datalist id="field-list"></datalist><div class="error" id="err-field" role="alert"></div></div>
+      <div class="field"><label for="budget" data-i18n="form.budget">Yearly budget (USD)</label><input class="input" id="budget" type="number" inputmode="numeric" min="1000" max="200000" step="500" placeholder="15000" required><div class="error" id="err-budget" role="alert"></div></div>
+      <button class="btn btn-block" id="submit-btn" type="submit" data-i18n="form.submit">Generate my plan</button>
+    </div>
+    <div id="recent" class="hidden" style="margin-top:18px"><div class="muted" style="font-size:13px;font-weight:600;margin-bottom:6px">Recent plans</div><div id="recent-list" class="stack" style="gap:6px;font-size:14px"></div></div>
+  </form>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="eyebrow">Popular destinations</div><h2 class="section-title" data-i18n="dest.title">Where do you want to study?</h2>
+  <div class="dest-grid" id="dest-grid" style="margin-top:24px"></div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="container stack">
+  <div><div class="eyebrow">Features</div><h2 class="section-title" data-i18n="feat.title">Everything you need to plan with confidence</h2></div>
+  <div class="feature-grid" id="features"></div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="container stack">
+  <div><div class="eyebrow">How it works</div><h2 class="section-title" data-i18n="how.title">Three steps to your plan</h2></div>
+  <div class="steps">
+    <div class="card"><span class="rank">1</span><h3>Analyze your profile</h3><p class="muted">The agent reads your country, degree, field and budget.</p></div>
+    <div class="card"><span class="rank">2</span><h3>Match universities</h3><p class="muted">It finds the top universities that fit under your budget.</p></div>
+    <div class="card"><span class="rank">3</span><h3>Get your plan</h3><p class="muted">Programs, scholarships, activities and costs in one report.</p></div>
+  </div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="container stack">
+  <div><div class="eyebrow">FAQ</div><h2 class="section-title" data-i18n="faq.title">Common questions</h2></div>
+  <div class="faq">
+    <div class="card"><h3>How does the agent make my plan?</h3><p>It reads your country, degree, field and budget, then builds a single plan in one task.</p></div>
+    <div class="card"><h3>Are the costs exact?</h3><p>No. Fees, rent and travel are estimates. Always confirm on the university website.</p></div>
+    <div class="card"><h3>Can I change my budget later?</h3><p>Yes. Use the budget slider on your plan, or generate a new plan any time.</p></div>
+  </div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="container"><div class="cta">
+  <div><h2 data-i18n="cta.title">Ready to plan your future?</h2><p style="font-size:18px">Create your free study abroad plan in a few clicks.</p></div>
+  <button class="btn btn-white" id="cta-btn" type="button" style="width:240px" data-i18n="form.submit">Generate my plan</button>
+</div></div></section>
+</main>
+<div id="footer"></div>
+<script type="module" src="assets/js/features.js"></script>
+<script type="module" src="assets/js/home.js"></script>
+</body></html>

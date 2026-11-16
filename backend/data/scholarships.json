@@ -1,0 +1,295 @@
+[
+ {
+  "id": "daad-scholarships-germany",
+  "name": "DAAD Scholarships",
+  "country": "germany",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 12000,
+  "coverage": "partial",
+  "description": "Monthly stipend for graduate students from many countries.",
+  "url": "https://www.daad.de"
+ },
+ {
+  "id": "deutschlandstipendium-germany",
+  "name": "Deutschlandstipendium",
+  "country": "germany",
+  "degrees": [
+   "bachelor",
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 3900,
+  "coverage": "partial",
+  "description": "Merit-based support of about 300 euros per month for enrolled students.",
+  "url": "https://www.deutschlandstipendium.de"
+ },
+ {
+  "id": "erasmus-mundus-joint-masters-germany",
+  "name": "Erasmus Mundus Joint Masters",
+  "country": "germany",
+  "degrees": [
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 20000,
+  "coverage": "full",
+  "description": "Fully funded joint master degrees across several European countries.",
+  "url": "https://erasmus-plus.ec.europa.eu"
+ },
+ {
+  "id": "erasmus-mundus-joint-masters-netherlands",
+  "name": "Erasmus Mundus Joint Masters",
+  "country": "netherlands",
+  "degrees": [
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 20000,
+  "coverage": "full",
+  "description": "Fully funded joint master degrees across several European countries.",
+  "url": "https://erasmus-plus.ec.europa.eu"
+ },
+ {
+  "id": "holland-scholarship-netherlands",
+  "name": "Holland Scholarship",
+  "country": "netherlands",
+  "degrees": [
+   "bachelor",
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 5000,
+  "coverage": "partial",
+  "description": "One-time award for non-EEA students at participating universities.",
+  "url": "https://www.studyinholland.nl"
+ },
+ {
+  "id": "vanier-canada-graduate-scholarships-canada",
+  "name": "Vanier Canada Graduate Scholarships",
+  "country": "canada",
+  "degrees": [
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 36000,
+  "coverage": "full",
+  "description": "Annual award for doctoral students, by institutional nomination.",
+  "url": "https://vanier.gc.ca"
+ },
+ {
+  "id": "ontario-graduate-scholarship-canada",
+  "name": "Ontario Graduate Scholarship",
+  "country": "canada",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 11000,
+  "coverage": "partial",
+  "description": "Merit award for graduate students at Ontario universities.",
+  "url": "https://osap.gov.on.ca"
+ },
+ {
+  "id": "university-merit-awards-canada-canada",
+  "name": "University merit awards (Canada)",
+  "country": "canada",
+  "degrees": [
+   "bachelor",
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 8000,
+  "coverage": "partial",
+  "description": "Many Canadian universities offer entrance awards. Check each university website.",
+  "url": null
+ },
+ {
+  "id": "chevening-scholarships-uk",
+  "name": "Chevening Scholarships",
+  "country": "uk",
+  "degrees": [
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 45000,
+  "coverage": "full",
+  "description": "Fully funded one-year master degrees for future leaders.",
+  "url": "https://www.chevening.org"
+ },
+ {
+  "id": "commonwealth-scholarships-uk",
+  "name": "Commonwealth Scholarships",
+  "country": "uk",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 40000,
+  "coverage": "full",
+  "description": "Fully funded awards for students from eligible Commonwealth countries.",
+  "url": "https://cscuk.fcdo.gov.uk"
+ },
+ {
+  "id": "university-merit-awards-uk-uk",
+  "name": "University merit awards (UK)",
+  "country": "uk",
+  "degrees": [
+   "bachelor",
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 6000,
+  "coverage": "partial",
+  "description": "Many UK universities offer international merit awards. Check each university website.",
+  "url": null
+ },
+ {
+  "id": "australia-awards-australia",
+  "name": "Australia Awards",
+  "country": "australia",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 45000,
+  "coverage": "full",
+  "description": "Fully funded awards for students from eligible countries.",
+  "url": "https://www.dfat.gov.au/people-to-people/australia-awards"
+ },
+ {
+  "id": "university-merit-awards-australia-australia",
+  "name": "University merit awards (Australia)",
+  "country": "australia",
+  "degrees": [
+   "bachelor",
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 9000,
+  "coverage": "partial",
+  "description": "Most Australian universities offer international scholarships. Check each university website.",
+  "url": null
+ },
+ {
+  "id": "fulbright-foreign-student-program-usa",
+  "name": "Fulbright Foreign Student Program",
+  "country": "usa",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 45000,
+  "coverage": "full",
+  "description": "Funding for graduate study in the United States, through your home country program.",
+  "url": "https://foreign.fulbrightonline.org"
+ },
+ {
+  "id": "graduate-assistantships-usa",
+  "name": "Graduate assistantships",
+  "country": "usa",
+  "degrees": [
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "HS",
+   "SS",
+   "BM"
+  ],
+  "amount_usd": 15000,
+  "coverage": "partial",
+  "description": "Teaching or research assistant roles can cover part of tuition and living costs.",
+  "url": null
+ },
+ {
+  "id": "university-merit-awards-usa-usa",
+  "name": "University merit awards (USA)",
+  "country": "usa",
+  "degrees": [
+   "bachelor",
+   "master",
+   "phd"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 10000,
+  "coverage": "partial",
+  "description": "Many US universities give merit awards to international students. Check each university website.",
+  "url": null
+ },
+ {
+  "id": "university-scholarships-germany-germany",
+  "name": "University scholarships (Germany)",
+  "country": "germany",
+  "degrees": [
+   "bachelor",
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 3000,
+  "coverage": "partial",
+  "description": "Some German universities offer small awards to international students.",
+  "url": null
+ },
+ {
+  "id": "university-scholarships-netherlands-netherlands",
+  "name": "University scholarships (Netherlands)",
+  "country": "netherlands",
+  "degrees": [
+   "bachelor",
+   "master"
+  ],
+  "fields": [
+   "all"
+  ],
+  "amount_usd": 7000,
+  "coverage": "partial",
+  "description": "Several Dutch universities offer excellence scholarships for non-EEA students.",
+  "url": null
+ }
+]

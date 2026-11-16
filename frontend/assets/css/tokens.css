@@ -1,0 +1,44 @@
+:root {
+  --navy: #0B1437;
+  --navy-2: #1B2A5E;
+  --accent: #2F5BEA;
+  --accent-text: #2F5BEA;
+  --teal: #14B8A6;
+  --amber: #F59E0B;
+  --bg: #F6F7FB;
+  --surface: #FFFFFF;
+  --line: #E3E6EF;
+  --ink: #0F1B3D;
+  --muted: #3B4663;
+  --chip-bg: #E8EEFF;
+  --chip-ink: #1E3FA8;
+  --ok-bg: #DDF5EA;
+  --ok-ink: #0B6B4F;
+  --warn-bg: #FFF1D6;
+  --warn-ink: #8A5200;
+  --bad-bg: #FDE4E4;
+  --bad-ink: #9B1C1C;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --font-head: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --shadow: 0 1px 2px rgba(11, 20, 55, .06), 0 8px 24px rgba(11, 20, 55, .06);
+  --max: 1200px;
+}
+[data-theme="dark"] {
+  --accent-text: #9DB4FF;
+  --bg: #0A1022;
+  --surface: #121A36;
+  --line: #27325A;
+  --ink: #EAF0FF;
+  --muted: #AEB9DA;
+  --chip-bg: #1B2A5E;
+  --chip-ink: #BFD0FF;
+  --ok-bg: #0F3D31;
+  --ok-ink: #8BEAC8;
+  --warn-bg: #4A3510;
+  --warn-ink: #FFD58A;
+  --bad-bg: #4A1A1A;
+  --bad-ink: #FFB4B4;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+}

@@ -1,0 +1,1417 @@
+[
+ {
+  "id": "germany-technical-university-of-munich",
+  "country": "germany",
+  "name": "Technical University of Munich",
+  "city": "Munich",
+  "city_factor": 1.25,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 4300,
+   "master": 6500,
+   "phd": 6500
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "BM",
+   "HS",
+   "DA"
+  ],
+  "url": "https://www.tum.de"
+ },
+ {
+  "id": "germany-rwth-aachen-university",
+  "country": "germany",
+  "name": "RWTH Aachen University",
+  "city": "Aachen",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 700,
+   "master": 700,
+   "phd": 700
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "BM",
+   "DA"
+  ],
+  "url": "https://www.rwth-aachen.de"
+ },
+ {
+  "id": "germany-technical-university-of-berlin",
+  "country": "germany",
+  "name": "Technical University of Berlin",
+  "city": "Berlin",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 700,
+   "master": 700,
+   "phd": 700
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "DA",
+   "SS",
+   "BM"
+  ],
+  "url": "https://www.tu.berlin"
+ },
+ {
+  "id": "germany-university-of-stuttgart",
+  "country": "germany",
+  "name": "University of Stuttgart",
+  "city": "Stuttgart",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 3300,
+   "master": 3300,
+   "phd": 3300
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "EN",
+   "NS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.uni-stuttgart.de"
+ },
+ {
+  "id": "germany-tu-dresden",
+  "country": "germany",
+  "name": "TU Dresden",
+  "city": "Dresden",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 700,
+   "master": 700,
+   "phd": 700
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "HS",
+   "BM",
+   "DA"
+  ],
+  "url": "https://tu-dresden.de"
+ },
+ {
+  "id": "germany-karlsruhe-institute-of-technology",
+  "country": "germany",
+  "name": "Karlsruhe Institute of Technology",
+  "city": "Karlsruhe",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 3300,
+   "master": 3300,
+   "phd": 3300
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "BM"
+  ],
+  "url": "https://www.kit.edu"
+ },
+ {
+  "id": "germany-heidelberg-university",
+  "country": "germany",
+  "name": "Heidelberg University",
+  "city": "Heidelberg",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 3300,
+   "master": 3300,
+   "phd": 3300
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "NS",
+   "HS",
+   "SS"
+  ],
+  "url": "https://www.uni-heidelberg.de"
+ },
+ {
+  "id": "germany-university-of-mannheim",
+  "country": "germany",
+  "name": "University of Mannheim",
+  "city": "Mannheim",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 3300,
+   "master": 3300,
+   "phd": 3300
+  },
+  "tier": 2,
+  "fields": [
+   "BM",
+   "SS",
+   "DS",
+   "CS"
+  ],
+  "url": "https://www.uni-mannheim.de"
+ },
+ {
+  "id": "germany-lmu-munich",
+  "country": "germany",
+  "name": "LMU Munich",
+  "city": "Munich",
+  "city_factor": 1.25,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 700,
+   "master": 700,
+   "phd": 700
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "NS",
+   "HS",
+   "SS",
+   "BM"
+  ],
+  "url": "https://www.lmu.de"
+ },
+ {
+  "id": "canada-university-of-toronto",
+  "country": "canada",
+  "name": "University of Toronto",
+  "city": "Toronto",
+  "city_factor": 1.3,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 48000,
+   "master": 38000,
+   "phd": 38000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.utoronto.ca"
+ },
+ {
+  "id": "canada-university-of-british-columbia",
+  "country": "canada",
+  "name": "University of British Columbia",
+  "city": "Vancouver",
+  "city_factor": 1.3,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 35000,
+   "master": 28000,
+   "phd": 28000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.ubc.ca"
+ },
+ {
+  "id": "canada-mcgill-university",
+  "country": "canada",
+  "name": "McGill University",
+  "city": "Montreal",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 34000,
+   "master": 25000,
+   "phd": 25000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.mcgill.ca"
+ },
+ {
+  "id": "canada-university-of-waterloo",
+  "country": "canada",
+  "name": "University of Waterloo",
+  "city": "Waterloo",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 40000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "BM",
+   "SS",
+   "DA"
+  ],
+  "url": "https://uwaterloo.ca"
+ },
+ {
+  "id": "canada-university-of-alberta",
+  "country": "canada",
+  "name": "University of Alberta",
+  "city": "Edmonton",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 24000,
+   "master": 16000,
+   "phd": 16000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.ualberta.ca"
+ },
+ {
+  "id": "canada-mcmaster-university",
+  "country": "canada",
+  "name": "McMaster University",
+  "city": "Hamilton",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 32000,
+   "master": 20000,
+   "phd": 20000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.mcmaster.ca"
+ },
+ {
+  "id": "canada-simon-fraser-university",
+  "country": "canada",
+  "name": "Simon Fraser University",
+  "city": "Burnaby",
+  "city_factor": 1.2,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 28000,
+   "master": 14000,
+   "phd": 14000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.sfu.ca"
+ },
+ {
+  "id": "canada-dalhousie-university",
+  "country": "canada",
+  "name": "Dalhousie University",
+  "city": "Halifax",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 21000,
+   "master": 15000,
+   "phd": 15000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.dal.ca"
+ },
+ {
+  "id": "canada-university-of-manitoba",
+  "country": "canada",
+  "name": "University of Manitoba",
+  "city": "Winnipeg",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 17000,
+   "master": 9000,
+   "phd": 9000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://umanitoba.ca"
+ },
+ {
+  "id": "canada-memorial-university-of-newfoundland",
+  "country": "canada",
+  "name": "Memorial University of Newfoundland",
+  "city": "St. John's",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 12000,
+   "master": 7000,
+   "phd": 7000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.mun.ca"
+ },
+ {
+  "id": "uk-imperial-college-london",
+  "country": "uk",
+  "name": "Imperial College London",
+  "city": "London",
+  "city_factor": 1.45,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 45000,
+   "master": 48000,
+   "phd": 48000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS"
+  ],
+  "url": "https://www.imperial.ac.uk"
+ },
+ {
+  "id": "uk-university-college-london",
+  "country": "uk",
+  "name": "University College London",
+  "city": "London",
+  "city_factor": 1.45,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 33000,
+   "master": 38000,
+   "phd": 38000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.ucl.ac.uk"
+ },
+ {
+  "id": "uk-university-of-edinburgh",
+  "country": "uk",
+  "name": "University of Edinburgh",
+  "city": "Edinburgh",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 36000,
+   "master": 36000,
+   "phd": 36000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.ed.ac.uk"
+ },
+ {
+  "id": "uk-university-of-manchester",
+  "country": "uk",
+  "name": "University of Manchester",
+  "city": "Manchester",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 30000,
+   "master": 31000,
+   "phd": 31000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.manchester.ac.uk"
+ },
+ {
+  "id": "uk-university-of-glasgow",
+  "country": "uk",
+  "name": "University of Glasgow",
+  "city": "Glasgow",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 29000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.gla.ac.uk"
+ },
+ {
+  "id": "uk-university-of-leeds",
+  "country": "uk",
+  "name": "University of Leeds",
+  "city": "Leeds",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 29000,
+   "master": 29000,
+   "phd": 29000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.leeds.ac.uk"
+ },
+ {
+  "id": "uk-university-of-sheffield",
+  "country": "uk",
+  "name": "University of Sheffield",
+  "city": "Sheffield",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 28000,
+   "master": 29000,
+   "phd": 29000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.sheffield.ac.uk"
+ },
+ {
+  "id": "uk-aston-university",
+  "country": "uk",
+  "name": "Aston University",
+  "city": "Birmingham",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 20000,
+   "master": 20000,
+   "phd": 20000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "SS"
+  ],
+  "url": "https://www.aston.ac.uk"
+ },
+ {
+  "id": "uk-university-of-hertfordshire",
+  "country": "uk",
+  "name": "University of Hertfordshire",
+  "city": "Hatfield",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 16000,
+   "master": 16000,
+   "phd": 16000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.herts.ac.uk"
+ },
+ {
+  "id": "uk-coventry-university",
+  "country": "uk",
+  "name": "Coventry University",
+  "city": "Coventry",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 16000,
+   "master": 17000,
+   "phd": 17000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.coventry.ac.uk"
+ },
+ {
+  "id": "australia-university-of-melbourne",
+  "country": "australia",
+  "name": "University of Melbourne",
+  "city": "Melbourne",
+  "city_factor": 1.05,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 32000,
+   "master": 34000,
+   "phd": 34000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.unimelb.edu.au"
+ },
+ {
+  "id": "australia-university-of-sydney",
+  "country": "australia",
+  "name": "University of Sydney",
+  "city": "Sydney",
+  "city_factor": 1.2,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 33000,
+   "master": 34000,
+   "phd": 34000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.sydney.edu.au"
+ },
+ {
+  "id": "australia-unsw-sydney",
+  "country": "australia",
+  "name": "UNSW Sydney",
+  "city": "Sydney",
+  "city_factor": 1.2,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 32000,
+   "master": 33000,
+   "phd": 33000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.unsw.edu.au"
+ },
+ {
+  "id": "australia-monash-university",
+  "country": "australia",
+  "name": "Monash University",
+  "city": "Melbourne",
+  "city_factor": 1.05,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 30000,
+   "master": 32000,
+   "phd": 32000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.monash.edu"
+ },
+ {
+  "id": "australia-australian-national-university",
+  "country": "australia",
+  "name": "Australian National University",
+  "city": "Canberra",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 30000,
+   "master": 32000,
+   "phd": 32000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.anu.edu.au"
+ },
+ {
+  "id": "australia-university-of-queensland",
+  "country": "australia",
+  "name": "University of Queensland",
+  "city": "Brisbane",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 29000,
+   "master": 31000,
+   "phd": 31000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.uq.edu.au"
+ },
+ {
+  "id": "australia-university-of-western-australia",
+  "country": "australia",
+  "name": "University of Western Australia",
+  "city": "Perth",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 29000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.uwa.edu.au"
+ },
+ {
+  "id": "australia-university-of-adelaide",
+  "country": "australia",
+  "name": "University of Adelaide",
+  "city": "Adelaide",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 28000,
+   "master": 29000,
+   "phd": 29000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.adelaide.edu.au"
+ },
+ {
+  "id": "australia-rmit-university",
+  "country": "australia",
+  "name": "RMIT University",
+  "city": "Melbourne",
+  "city_factor": 1.05,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 26000,
+   "master": 28000,
+   "phd": 28000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.rmit.edu.au"
+ },
+ {
+  "id": "australia-deakin-university",
+  "country": "australia",
+  "name": "Deakin University",
+  "city": "Geelong",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 25000,
+   "master": 26000,
+   "phd": 26000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.deakin.edu.au"
+ },
+ {
+  "id": "usa-massachusetts-institute-of-technology",
+  "country": "usa",
+  "name": "Massachusetts Institute of Technology",
+  "city": "Cambridge, MA",
+  "city_factor": 1.5,
+  "type": "private",
+  "tuition_usd": {
+   "bachelor": 62000,
+   "master": 62000,
+   "phd": 62000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.mit.edu"
+ },
+ {
+  "id": "usa-carnegie-mellon-university",
+  "country": "usa",
+  "name": "Carnegie Mellon University",
+  "city": "Pittsburgh",
+  "city_factor": 1.0,
+  "type": "private",
+  "tuition_usd": {
+   "bachelor": 63000,
+   "master": 55000,
+   "phd": 55000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "DA",
+   "SS",
+   "NS"
+  ],
+  "url": "https://www.cmu.edu"
+ },
+ {
+  "id": "usa-georgia-institute-of-technology",
+  "country": "usa",
+  "name": "Georgia Institute of Technology",
+  "city": "Atlanta",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 34000,
+   "master": 33000,
+   "phd": 33000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "NS",
+   "DA",
+   "SS"
+  ],
+  "url": "https://www.gatech.edu"
+ },
+ {
+  "id": "usa-university-of-texas-at-austin",
+  "country": "usa",
+  "name": "University of Texas at Austin",
+  "city": "Austin",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 42000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.utexas.edu"
+ },
+ {
+  "id": "usa-university-of-illinois-urbana-champaign",
+  "country": "usa",
+  "name": "University of Illinois Urbana-Champaign",
+  "city": "Urbana-Champaign",
+  "city_factor": 0.85,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 36000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://illinois.edu"
+ },
+ {
+  "id": "usa-purdue-university",
+  "country": "usa",
+  "name": "Purdue University",
+  "city": "West Lafayette",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 30000,
+   "master": 25000,
+   "phd": 25000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.purdue.edu"
+ },
+ {
+  "id": "usa-arizona-state-university",
+  "country": "usa",
+  "name": "Arizona State University",
+  "city": "Tempe",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 33000,
+   "master": 30000,
+   "phd": 30000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.asu.edu"
+ },
+ {
+  "id": "usa-university-at-buffalo",
+  "country": "usa",
+  "name": "University at Buffalo",
+  "city": "Buffalo",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 29000,
+   "master": 27000,
+   "phd": 27000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.buffalo.edu"
+ },
+ {
+  "id": "usa-texas-a-m-university",
+  "country": "usa",
+  "name": "Texas A&M University",
+  "city": "College Station",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 40000,
+   "master": 22000,
+   "phd": 22000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS",
+   "DA"
+  ],
+  "url": "https://www.tamu.edu"
+ },
+ {
+  "id": "usa-cleveland-state-university",
+  "country": "usa",
+  "name": "Cleveland State University",
+  "city": "Cleveland",
+  "city_factor": 0.8,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 17000,
+   "master": 15000,
+   "phd": 15000
+  },
+  "tier": 3,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "HS",
+   "NS",
+   "SS"
+  ],
+  "url": "https://www.csuohio.edu"
+ },
+ {
+  "id": "netherlands-delft-university-of-technology",
+  "country": "netherlands",
+  "name": "Delft University of Technology",
+  "city": "Delft",
+  "city_factor": 1.0,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 21000,
+   "master": 22000,
+   "phd": 22000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "DA",
+   "BM"
+  ],
+  "url": "https://www.tudelft.nl"
+ },
+ {
+  "id": "netherlands-university-of-amsterdam",
+  "country": "netherlands",
+  "name": "University of Amsterdam",
+  "city": "Amsterdam",
+  "city_factor": 1.3,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 15000,
+   "master": 18000,
+   "phd": 18000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "BM",
+   "NS",
+   "SS",
+   "HS"
+  ],
+  "url": "https://www.uva.nl"
+ },
+ {
+  "id": "netherlands-utrecht-university",
+  "country": "netherlands",
+  "name": "Utrecht University",
+  "city": "Utrecht",
+  "city_factor": 1.1,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 15000,
+   "master": 18000,
+   "phd": 18000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "BM",
+   "NS",
+   "SS",
+   "HS"
+  ],
+  "url": "https://www.uu.nl"
+ },
+ {
+  "id": "netherlands-eindhoven-university-of-technology",
+  "country": "netherlands",
+  "name": "Eindhoven University of Technology",
+  "city": "Eindhoven",
+  "city_factor": 0.95,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 16000,
+   "master": 20000,
+   "phd": 20000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "NS",
+   "BM",
+   "DA"
+  ],
+  "url": "https://www.tue.nl"
+ },
+ {
+  "id": "netherlands-university-of-groningen",
+  "country": "netherlands",
+  "name": "University of Groningen",
+  "city": "Groningen",
+  "city_factor": 0.85,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 14000,
+   "master": 17000,
+   "phd": 17000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "NS",
+   "SS",
+   "HS"
+  ],
+  "url": "https://www.rug.nl"
+ },
+ {
+  "id": "netherlands-leiden-university",
+  "country": "netherlands",
+  "name": "Leiden University",
+  "city": "Leiden",
+  "city_factor": 1.05,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 15000,
+   "master": 19000,
+   "phd": 19000
+  },
+  "tier": 1,
+  "fields": [
+   "CS",
+   "DS",
+   "NS",
+   "SS",
+   "HS",
+   "BM"
+  ],
+  "url": "https://www.universiteitleiden.nl"
+ },
+ {
+  "id": "netherlands-university-of-twente",
+  "country": "netherlands",
+  "name": "University of Twente",
+  "city": "Enschede",
+  "city_factor": 0.85,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 14000,
+   "master": 16000,
+   "phd": 16000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "EN",
+   "BM",
+   "NS",
+   "SS",
+   "HS"
+  ],
+  "url": "https://www.utwente.nl"
+ },
+ {
+  "id": "netherlands-maastricht-university",
+  "country": "netherlands",
+  "name": "Maastricht University",
+  "city": "Maastricht",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 14000,
+   "master": 16000,
+   "phd": 16000
+  },
+  "tier": 2,
+  "fields": [
+   "DS",
+   "BM",
+   "HS",
+   "SS",
+   "CS"
+  ],
+  "url": "https://www.maastrichtuniversity.nl"
+ },
+ {
+  "id": "netherlands-vrije-universiteit-amsterdam",
+  "country": "netherlands",
+  "name": "Vrije Universiteit Amsterdam",
+  "city": "Amsterdam",
+  "city_factor": 1.3,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 15000,
+   "master": 18000,
+   "phd": 18000
+  },
+  "tier": 2,
+  "fields": [
+   "CS",
+   "DS",
+   "BM",
+   "NS",
+   "SS",
+   "HS"
+  ],
+  "url": "https://vu.nl"
+ },
+ {
+  "id": "netherlands-wageningen-university",
+  "country": "netherlands",
+  "name": "Wageningen University",
+  "city": "Wageningen",
+  "city_factor": 0.9,
+  "type": "public",
+  "tuition_usd": {
+   "bachelor": 15000,
+   "master": 19000,
+   "phd": 19000
+  },
+  "tier": 2,
+  "fields": [
+   "NS",
+   "DS",
+   "BM",
+   "SS"
+  ],
+  "url": "https://www.wur.nl"
+ }
+]

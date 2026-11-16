@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log in | Globepath</title>
+<meta name="description" content="Log in or create a Globepath account.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/print.css">
+<script>try{var t=JSON.parse(localStorage.getItem("globepath:theme"));document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch(e){}</script>
+</head>
+<body>
+<div id="nav"></div>
+<main id="main">
+<div class="auth">
+  <div class="auth-side on-dark"><div class="eyebrow">Welcome back</div><h1>Continue planning your study abroad journey.</h1><p>Log in to see your saved plans, shortlisted universities and application checklist.</p></div>
+  <div class="auth-form-wrap"><div class="card auth-card">
+    <h2 id="auth-title">Log in</h2>
+    <form id="auth-form" class="form-grid" novalidate>
+      <div class="field hidden" id="name-field"><label for="name">Name</label><input class="input" id="name" autocomplete="name"></div>
+      <div class="field"><label for="email">Email</label><input class="input" id="email" type="email" autocomplete="email" placeholder="you@example.com"></div>
+      <div class="field"><label for="password">Password</label><input class="input" id="password" type="password" autocomplete="current-password" placeholder="At least 6 characters"></div>
+      <div class="error" id="form-error" role="alert"></div>
+      <button class="btn btn-block" id="auth-submit" type="submit">Log in</button>
+    </form>
+    <p style="text-align:center;font-size:14px;margin-top:16px" class="muted" id="switch-text"></p>
+    <button class="btn btn-ghost btn-block" id="guest-btn" type="button" style="margin-top:14px">Continue as guest</button>
+    <p class="muted" style="font-size:12px;margin-top:14px">Demo accounts are stored only in this browser. Do not use a real password.</p>
+  </div></div>
+</div>
+</main>
+<div id="footer"></div>
+<script type="module" src="assets/js/login.js"></script>
+</body></html>
